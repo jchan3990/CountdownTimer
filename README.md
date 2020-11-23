@@ -12,7 +12,7 @@ nodemon server/index.js
 ```
 ### Change Duration ###
 1. Go to client/src/components/App.jsx
-   * Change `Date(\`12/24/${year}`)` \*\*\*Date must be after current date
+   - Change `+new Date(\`12/24/${year}\`)` \*\*\*Date must be after current date
 
 ## Requirements ##
 An `nvmrc` file is included if using [nvm](https://github.com/nvm-sh/nvm).
